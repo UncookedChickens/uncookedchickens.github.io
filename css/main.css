@@ -5,7 +5,7 @@ html {
 
 .parallax1 {
     /* The image used */
-    background-image: url("https://lh5.googleusercontent.com/z0htigryvIG58zqke65tthuqWm752VSSDRJFPB49Q5sw0Awa07gBwAAxL7ERnKlSS7sCNlChjczGKhqclG9GSw=w1364-h678-rw");
+    background-image: url("/[CAT5].jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -17,7 +17,7 @@ html {
 
 .parallax2 {
     /* The image used */
-    background-image: url("https://lh4.googleusercontent.com/WcEJ4CCkmNs7m-fWUJ1x8NrbeeJag0pOyLPGnRGTU03KRV00CJFFMD6g-AFY4493UwH_O5O3QK5-XR0Bu_5kSw=w1364-h678-rw");
+    background-image: url("/[CAT2].jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -29,7 +29,7 @@ html {
 
 .parallax3 {
     /* The image used */
-    background-image: url("https://lh5.googleusercontent.com/8KTIYbiKpexbgd4skudr8o-V5BRDLS0W1qrFfdVTtiamIUur6H2bv_ym7B8QncxIYBbS9X4Bgo5qgoXBkXTQVQ=w1364-h678-rw");
+    background-image: url("/[CAT6].jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
