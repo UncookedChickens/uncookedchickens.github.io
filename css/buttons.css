@@ -22,7 +22,7 @@ a.btn_light:visited {
     color: white;
 }
 a.btn_light:active {
-    color: purple;
+    color: white;
 }
 
 a.btn_dark {
@@ -38,7 +38,7 @@ a.btn_dark {
 }
 
 a.btn_dark:link {
-    color: white;
+    color: #000;
 }
 
 a.btn_dark:hover {
@@ -46,9 +46,9 @@ a.btn_dark:hover {
 }
 
 a.btn_dark:visited {
-    color: white;
+    color: #000;
 }
 
 a.btn_dark:active {
-    color: white;
+    color: #000;
 }
