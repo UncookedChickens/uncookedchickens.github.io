@@ -13,6 +13,10 @@ a.btn_light:hover {
     border: 3px solid #949;
 }
 
+a.btn_light:visited {
+    color: #ccc;
+}
+
 a.btn_dark {
     text-decoration: none;
     text-align: center;
@@ -27,4 +31,8 @@ a.btn_dark {
 
 a.btn_dark:hover {
     border: 3px solid #949;
+}
+
+a.btn_dark:visited {
+    color: #ccc;
 }
