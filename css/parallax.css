@@ -14,6 +14,14 @@ body,html {
     background-size: cover;
 }
 
+.parallax_content_cover span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
 .parallax_cover_TBAG {
     /* The image used */
     background-image: url("/TBAG_splash.png");
