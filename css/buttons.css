@@ -7,7 +7,7 @@ a.btn_light {
     background-color: Transparent;
     border: 2px solid #fff;
     padding: 18px;
-    color: #fff;
+    color: white;
 }
 
 a.btn_light:hover {
@@ -15,7 +15,7 @@ a.btn_light:hover {
 }
 
 a.btn_light:visited {
-    color: #ccc;
+    color: white;
 }
 
 a.btn_dark {
@@ -27,6 +27,7 @@ a.btn_dark {
     background-color: Transparent;
     border: 2px solid #000;
     padding: 18px;
+    color: white;
 }
 
 a.btn_dark:hover {
@@ -34,5 +35,5 @@ a.btn_dark:hover {
 }
 
 a.btn_dark:visited {
-    color: #ccc;
+    color: white;
 }
