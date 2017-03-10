@@ -22,7 +22,7 @@ a.btn_light:visited {
     color: white;
 }
 a.btn_light:active {
-    color: white;
+    color: purple;
 }
 
 a.btn_dark {
