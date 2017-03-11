@@ -24,3 +24,9 @@
 	margin-left: 24%;
 	/*3EAB4F*/
 }
+
+.menu {
+	/*Yes, I did have to name it menu, you're welcome guys!*/
+	padding: 50px;
+	background: rgba(0,0,0,0.5);
+}
