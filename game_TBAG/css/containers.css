@@ -1,16 +1,21 @@
 .contentl {
-    color: #777;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 100px;
-    text-align: center;
+	color: #777;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 100px;
+	text-align: center;
 }
 
 .contentd {
-    color: #ddd;
-    background-color: #282E34;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 100px;
-    text-align: center;
+	color: #ddd;
+	background-color: #282E34;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 100px;
+	text-align: center;
+}
+
+.contentd span.sub_content {
+	background-color: Transparent;
+	border: 10px solid #fff;
 }
