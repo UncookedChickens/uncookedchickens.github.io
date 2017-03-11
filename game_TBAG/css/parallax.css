@@ -47,19 +47,19 @@ body,html {
     text-align: center;
 }
 
-.parallax_content_cover span.cover_border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
 .parallax_content_game_download_TBAG {
     color: #777;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.parallax_content_game_download_TBAG span.cover_border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
 .parallax_content_game_info_TBAG {
