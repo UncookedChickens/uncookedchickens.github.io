@@ -19,12 +19,12 @@ body,html {
     background-image: url("/TBAG_splash.png");
     /* Full height */
     height: 100%;
-    width: 100%;
+    //width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    //background-size: cover;
 }
 
 .parallax_game_info {
