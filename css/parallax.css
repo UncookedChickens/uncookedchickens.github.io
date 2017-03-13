@@ -4,7 +4,7 @@ body,html {
 
 .parallax_cover {
     /* The image used */
-    background-image: url("uncookedchickens.github.io/img/[CAT5].jpg");
+    background-image: url("/img/[CAT5].jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
