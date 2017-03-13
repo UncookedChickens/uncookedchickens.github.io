@@ -4,7 +4,7 @@ body,html {
 
 .parallax_cover {
     /* The image used */
-    background-image: url("/[CAT5].jpg");
+    background-image: url("/img/[CAT5].jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -16,7 +16,7 @@ body,html {
 
 .parallax_cover_TBAG {
     /* The image used */
-    background-image: url("/TBAG_splash.png");
+    background-image: url("/img/TBAG_splash.png");
     /* Full height */
     height: 100%;
     width: 100%;
@@ -29,7 +29,7 @@ body,html {
 
 .parallax_cover_unknown {
     /* The image used */
-    background-image: url("/[CAT6].jpg");
+    background-image: url("/img/[CAT6].jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
