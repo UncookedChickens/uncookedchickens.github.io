@@ -40,9 +40,19 @@
     padding: 10px;
 }
 
-.title_style {
+.title_stylel {
 	font-size:25px;
 	color: #111;
+	padding: 18px;
+	text-align:center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px; lato=""; sans-serif;
+}
+
+.title_styled {
+	font-size:25px;
+	color: #fff;
 	padding: 18px;
 	text-align:center;
 	letter-spacing: 5px;
