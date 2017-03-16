@@ -1,4 +1,4 @@
-a.btn_light {
+a.btn_dark {
     text-decoration: none;
     text-align: center;
     font-size: 25px;
@@ -10,23 +10,23 @@ a.btn_light {
     color: white;
 }
 
-a.btn_light:link {
+a.btn_dark:link {
     color: white;
 }
 
-a.btn_light:hover {
+a.btn_dark:hover {
     border: 2px solid #949;
 }
 
-a.btn_light:visited {
+a.btn_dark:visited {
     color: white;
 }
 
-a.btn_light:active {
+a.btn_dark:active {
     color: white;
 }
 
-a.btn_dark {
+a.btn_light {
     text-decoration: none;
     text-align: center;
     font-size: 25px;
@@ -38,18 +38,18 @@ a.btn_dark {
     color: #000;
 }
 
-a.btn_dark:link {
+a.btn_light:link {
     color: #000;
 }
 
-a.btn_dark:hover {
+a.btn_light:hover {
     border: 2px solid #949;
 }
 
-a.btn_dark:visited {
+a.btn_light:visited {
     color: #000;
 }
 
-a.btn_dark:active {
+a.btn_light:active {
     color: #000;
 }
