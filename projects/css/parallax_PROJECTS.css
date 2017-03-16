@@ -1,0 +1,52 @@
+body,
+html {
+	height: 100%;
+}
+
+.parallax_cover_projects {
+	/* The image used */
+	background-image: url("/img/[CAT5].jpg");
+	/* Full height */
+	height: 100%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax_cover_project_1 {
+	/* The image used */
+	background-image: url("/img/TBAG_splash.png");
+	/* Full height */
+	height: 100%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	//background-size: cover;
+}
+
+.parallax_content_cover {
+	color: #777;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 250px;
+	text-align: center;
+}
+
+.parallax_content_game_1 {
+	color: #777;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 300px;
+}
+
+.parallax_content_game_1 span.cover_span {
+	background-color: #fff;
+	color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
