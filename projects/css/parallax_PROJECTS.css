@@ -47,18 +47,18 @@ html {
 	text-align: center;
 }
 
+.parallax_content_cover span.cover_span {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
 .parallax_content_project_1 {
 	color: #777;
 	font-size: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	padding-top: 300px;
-}
-
-.parallax_content_project_1 span.cover_span {
-	background-color: #fff;
-	color: #111;
-	padding: 18px;
-	font-size: 25px;
-	letter-spacing: 10px;
 }
