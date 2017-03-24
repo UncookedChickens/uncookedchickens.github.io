@@ -1,4 +1,4 @@
-// This is for the colored parts of the website, makes it more dynamic
+/* This is for the colored parts of the website, makes it more dynamic */
 
 @-webkit-keyframes colorPulse {
 	0% {border-color: red;}
