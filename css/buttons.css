@@ -30,7 +30,7 @@ a.btn_dark:link {
 }
 
 a.btn_dark:hover {
-    -webkit-animation: colorPulse; 15s infinite alternate;
+    -webkit-animation: colorPulse 15s infinite alternate;
 }
 
 a.btn_dark:visited {
@@ -58,7 +58,7 @@ a.btn_light:link {
 }
 
 a.btn_light:hover {
-    -webkit-animation: colorPulse; 15s infinite alternate;
+    -webkit-animation: colorPulse 15s infinite alternate;
 }
 
 a.btn_light:visited {
