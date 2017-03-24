@@ -59,3 +59,13 @@
 	text-transform: uppercase;
 	font: 20px; lato=""; sans-serif;
 }
+
+.codeform_border {
+	background:Transparent;
+	overflow:auto;
+	width:500px;
+	max-height: 200px;
+	border: 1px solid;
+	-webkit-animation: colorPulse 15s infinite alternate;
+	padding:.2em .6em;
+}
