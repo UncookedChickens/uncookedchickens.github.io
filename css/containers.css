@@ -17,7 +17,7 @@
 
 .sub_content {
 	background-color: Transparent;
-	border: 2px solid #949;
+	-webkit-animation: colorPulse 15s infinite alternate;
 	padding: 10px;
 	text-align: center;
 	width: 50%;
