@@ -1,89 +1,100 @@
 <!-- HTML comment -->
-<style type="text/css">
-	@-webkit-keyframes colorPulse {
-		0% {border-color: red;}
-		10% {border-color: orange;}
-		20% {border-color: yellow;}
-		30% {border-color: #494;}
-		40% {border-color: #449;}
-		50% {border-color: #949;}
-		60% {border-color: #449;}
-		70% {border-color: #494;}
-		80% {border-color: yellow;}
-		90% {border-color: orange;}
-		100% {border-color: red;}
-	}
-</style>
-<div class="parallax_cover"></div>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="/uncookedchickens.github.io/css/buttons.css">
+	<link rel="stylesheet" href="/uncookedchickens.github.io/css/containers.css">
+	<link rel="stylesheet" href="/uncookedchickens.github.io/css/parallax.css">
+	
+	<style type="text/css">
+		@-webkit-keyframes colorPulse {
+			0% {border-color: red;}
+			10% {border-color: orange;}
+			20% {border-color: yellow;}
+			30% {border-color: #494;}
+			40% {border-color: #449;}
+			50% {border-color: #949;}
+			60% {border-color: #449;}
+			70% {border-color: #494;}
+			80% {border-color: yellow;}
+			90% {border-color: orange;}
+			100% {border-color: red;}
+		}
+	</style>
+	
+</head>
+	
+<body>
+	<div class="parallax_cover"></div>
 
-<div class="contentl">
-<div id="if" class="codeform_border">
-	<table>
-		<tr>
-			<td>
-				<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4</pre>
-			</td>
-		<td>
-<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A basic if statement in GML</span>
+	<div class="contentl">
+		<div id="if" class="codeform_border">
+			<table>
+				<tr>
+					<td>
+						<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4</pre>
+					</td>
+					<td>
+						<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A basic if statement in GML</span>
 <span style="color: #949">if</span>(<span style="color: #944">x</span>><span style="color: #944">room_width</span>){
-    <span style="color: #944">x</span> = 0;
+<span style="color: #944">x</span> = 0;
 }
-</pre>
-</td>
-</tr>
-</table>
-</div>
+						</pre>
+				</td>
+			</tr>
+		</table>
+	</div>
 
-<br>
+	<br>
 
-<div id="for" class="codeform_border">
-	<table>
-		<tr>
-			<td>
-				<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4</pre>
-			</td>
-		<td>
-<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A basic for loop in GML</span>
+	<div id="for" class="codeform_border">
+		<table>
+			<tr>
+				<td>
+					<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4</pre>
+				</td>
+				<td>
+					<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A basic for loop in GML</span>
 <span style="color: #949">for</span>(i=<span style="color: #494">0</span>;i<span style="color: #494">10</span>;i++){
     count++;
 }
-</pre>
-</td>
-</tr>
-</table>
-</div>
+					</pre>
+				</td>
+			</tr>
+		</table>
+	</div>
 
-<br>
+	<br>
 
-<div id="while" class="codeform_border">
-	<table>
-		<tr>
-			<td>
-				<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4<br>5<br>6</pre>
-			</td>
-		<td>
-<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A basic while loop in GML</span>
+	<div id="while" class="codeform_border">
+		<table>
+			<tr>
+				<td>
+					<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4<br>5<br>6</pre>
+				</td>
+				<td>
+					<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A basic while loop in GML</span>
 <span style="color: #949">var</span> i = <span style="color: #944">0</span>;
 
 <span style="color: #949">while</span>(i<<span style="color: #494">10</span>){
     i++;
 }
-</pre>
-</td>
-</tr>
-</table>
-</div>
+					</pre>
+				</td>
+			</tr>
+		</table>
+	</div>
 
-<br>
+	<br>
 
-<div id="script_custom_function" class="codeform_border">
-	<table>
-		<tr>
-			<td>
-				<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13</pre>
-			</td>
-		<td>
-<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A custom function(script with arguments) in GML</span>
+	<div id="script_custom_function" class="codeform_border">
+		<table>
+			<tr>
+				<td>
+					<pre style="margin: 0; line-height: 125%">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13</pre>
+				</td>
+				<td>
+					<pre style="margin: 0px; line-height: 125%"><span style="color: #777">// A custom function(script with arguments) in GML</span>
 <span style="color: #949">var</span> total;
     switch(<span style="color: #944">argument2</span>){
     <span style="color: #949">case</span> <span style="color: #494">0</span>:total = <span style="color: #944">argument0</span> + <span style="color: #944">argument1</span>;<span style="color: #949">break</span>;
@@ -96,9 +107,11 @@
 
 <span style="color: #949">return</span>(total);
 
-</pre>
-</td>
-</tr>
-</table>
+					</pre>
+				</td>
+			</tr>
+		</table>
+	</div>
 </div>
-</div>
+</body>
+</html>
