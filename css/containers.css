@@ -1,6 +1,6 @@
 // This is for the colored parts of the website, makes it more dynamic
 
-@-webkit-keyframes colorPulseContainer {
+@-webkit-keyframes colorPulse {
 	0% {border-color: red;}
 	10% {border-color: orange;}
 	20% {border-color: yellow;}
@@ -33,7 +33,7 @@
 
 .sub_content {
 	background-color: Transparent;
-	-webkit-animation: colorPulseContainer 15s infinite alternate;
+	-webkit-animation: colorPulse 15s infinite alternate;
 	padding: 10px;
 	text-align: center;
 	width: 50%;
