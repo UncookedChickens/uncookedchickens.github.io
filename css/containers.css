@@ -32,7 +32,7 @@
 }
 
 .sub_content {
-	background-color: Transparent;
+	background: Transparent;
 	-webkit-animation: colorPulse 15s infinite alternate;
 	padding: 10px;
 	text-align: center;
