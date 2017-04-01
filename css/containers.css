@@ -84,4 +84,5 @@
 	border: 1px solid;
 	-webkit-animation: colorPulse 15s infinite alternate;
 	padding:.2em .6em;
+	text-align: center;
 }
