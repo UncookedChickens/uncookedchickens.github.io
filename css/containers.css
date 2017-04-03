@@ -42,21 +42,6 @@
 	/*3EAB4F*/
 }
 
-.split_content_left {
-    display: inline-block;
-    background-color: Transparent;
-    text-align: center;
-    padding: 25px;
-}
-
-.split_content_right {
-    display: inline-block;
-    background-color: Transparent;
-    text-align: center;
-    border-right: 2px solid #282e34;
-    padding: 10px;
-}
-
 .title_stylel {
 	font-size:25px;
 	color: 111;
