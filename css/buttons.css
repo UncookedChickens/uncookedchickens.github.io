@@ -24,6 +24,16 @@ a.btn_dark {
 	border: 1px solid #fff;
 	padding: 18px;
 	color: white;
+  	position: relative;
+  	outline: 0;
+  	overflow:hidden;
+  	z-index: 1;
+  	cursor: pointer;
+  	transition:         0.08s ease-in;
+  	-o-transition:      0.08s ease-in;
+  	-ms-transition:     0.08s ease-in;
+  	-moz-transition:    0.08s ease-in;
+  	-webkit-transition: 0.08s ease-in;
 }
 
 a.btn_dark:link {
@@ -35,14 +45,19 @@ a.btn_dark:hover {
 	-webkit-animation: colorPulse 15s infinite alternate;
 }
 
-a.btn_dark:before {
-	-webkit-transition: top 0.09s ease-in;
+a.bnt_dark:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  -webkit-transition: top 0.09s ease-in;
 }
 
 a.btn_dark:hover:before {
-	top: 0;
+  top: 0;
 }
-
 a.btn_dark:visited {
     color: white;
 }
