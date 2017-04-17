@@ -22,6 +22,7 @@ a.btn_dark {
 	letter-spacing: 10px;
 	background-color: Transparent;
 	border: 1px solid #fff;
+	border-radius: 2px;
 	padding: 18px;
 	color: white;
   	position: relative;
@@ -29,10 +30,10 @@ a.btn_dark {
   	overflow:hidden;
   	z-index: 1;
   	cursor: pointer;
-  	transition:         0.2s ease-in;
-  	-o-transition:      0.2s ease-in;
-  	-ms-transition:     0.2s ease-in;
-  	-moz-transition:    0.2s ease-in;
+  	transition: 0.2s ease-in;
+  	-o-transition: 0.2s ease-in;
+  	-ms-transition: 0.2s ease-in;
+  	-moz-transition: 0.2s ease-in;
   	-webkit-transition: 0.2s ease-in;
 }
 
@@ -75,6 +76,7 @@ a.btn_light {
 	letter-spacing: 10px;
 	background-color: Transparent;
 	border: 1px solid #000;
+	border-radius: 2px;
 	padding: 18px;
 	color: #000;
   	position: relative;
