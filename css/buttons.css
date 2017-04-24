@@ -2,7 +2,7 @@
 
 @-webkit-keyframes colorPulse_light {
 	0% {color: black;}
-	1% {color: red;}
+	3% {color: red;}
 	11% {color: orange;}
 	21% {color: yellow;}
 	31% {color: #494;}
@@ -17,7 +17,7 @@
 
 @-webkit-keyframes colorPulse_dark {
 	0% {color: white;}
-	1% {color: red;}
+	3% {color: red;}
 	11% {color: orange;}
 	21% {color: yellow;}
 	31% {color: #494;}
