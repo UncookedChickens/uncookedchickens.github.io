@@ -1,17 +1,16 @@
 /* This is for the colored parts of the website, makes it more dynamic */
 
 @-webkit-keyframes colorPulse {
-	0% {color: black;}
-	1% {color: red;}
-	11% {color: orange;}
-	21% {color: yellow;}
-	31% {color: #494;}
-	41% {color: #449;}
-	51% {color: #949;}
-	61% {color: #449;}
-	71% {color: #494;}
-	81% {color: yellow;}
-	91% {color: orange;}
+	0% {color: red;}
+	10% {color: orange;}
+	20% {color: yellow;}
+	30% {color: #494;}
+	40% {color: #449;}
+	50% {color: #949;}
+	60% {color: #449;}
+	70% {color: #494;}
+	80% {color: yellow;}
+	90% {color: orange;}
 	100% {color: red;}
 }
 
@@ -85,10 +84,10 @@ a.btn_light {
   	overflow:hidden;
   	z-index: 1;
   	cursor: pointer;
-  	transition:         0.2s ease-in;
-  	-o-transition:      0.2s ease-in;
-  	-ms-transition:     0.2s ease-in;
-  	-moz-transition:    0.2s ease-in;
+  	transition: 0.2s ease-in;
+  	-o-transition: 0.2s ease-in;
+  	-ms-transition: 0.2s ease-in;
+  	-moz-transition: 0.2s ease-in;
   	-webkit-transition: 0.2s ease-in;
 }
 
