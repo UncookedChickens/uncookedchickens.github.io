@@ -1,6 +1,6 @@
 /* This is for the colored parts of the website, makes it more dynamic */
 
-@-webkit-keyframes colorPulse_dark {
+@-webkit-keyframes colorPulse_light {
 	0% {color: black;}
 	1% {color: red;}
 	11% {color: orange;}
@@ -15,7 +15,7 @@
 	100% {color: red;}
 }
 
-@-webkit-keyframes colorPulse_light {
+@-webkit-keyframes colorPulse_dark {
 	0% {color: white;}
 	1% {color: red;}
 	11% {color: orange;}
@@ -58,7 +58,7 @@ a.btn_dark:link {
 }
 
 a.btn_dark:hover {
-	-webkit-animation: colorPulse 15s infinite alternate;
+	-webkit-animation: colorPulse_dark 15s infinite alternate;
 }
 
 a.btn_dark:before {
@@ -112,7 +112,7 @@ a.btn_light:link {
 }
 
 a.btn_light:hover {
-    -webkit-animation: colorPulse 15s infinite alternate;
+    -webkit-animation: colorPulse_light 15s infinite alternate;
 }
 
 a.btn_light:before {
