@@ -38,7 +38,7 @@ a.btn_dark {
 	letter-spacing: 10px;
 	background-color: Transparent;
 	border: 1px solid #fff;
-	border-radius: 2px;
+	border-radius: 3px;
 	padding: 18px;
 	color: white;
   	position: relative;
@@ -92,7 +92,7 @@ a.btn_light {
 	letter-spacing: 10px;
 	background-color: Transparent;
 	border: 1px solid #000;
-	border-radius: 2px;
+	border-radius: 3px;
 	padding: 18px;
 	color: #000;
   	position: relative;
